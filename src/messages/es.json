@@ -1,0 +1,95 @@
+{
+  "Nav": {
+    "home": "Inicio",
+    "contact": "Contáctanos",
+    "login": "Iniciar Sesión"
+  },
+  "Hero": {
+    "title": "Transforma tu \nforma de vender",
+    "subtitle": "Registra tu empresa y empieza a vender tus eventos hoy",
+    "cta": "Comenzar ahora"
+  },
+  "TMT": {
+    "title": "TradeMaster Transactions",
+    "description": "Trade Master Transactions es una plataforma transaccional que permite el intercambio comercial B2P y P2P, en un ambiente magistral diseñado para la protección de datos personales, tanto para nuestros clientes como para sus usuarios.",
+    "description2": "Una vez que pactes nuestros servicios, tendrás acceso a un Panel Administrativo desde el cual podrás: Crear tu evento, producto o servicio. Construir tu landing page desde nuestra plataforma Trade Master Transactions, con herramientas intuitivas, sin necesidad de código, y con todos los canales de ventas integrados (e-commerce, pasarelas de pago y facturación digital). Crear y gestionar Taquillas y/o Tiendas. Cotizar tu campaña publicitaria desde la plataforma, anunciándote en las redes sociales que elijas, administrando el presupuesto y accediendo a los indicadores y reportes de la campaña. Gerenciar y asignar distintos roles a tu equipo (por ejemplo, diferentes tipos de roles para vendedores, personal de canje y control de acceso). Acceder en tiempo real a tus ingresos y a toda la reportaría, incluida la facturación digital, con su respectiva conciliación bancaria."
+  },
+  "SectionSteps": {
+    "step1": {
+      "title": "Registra tu empresa",
+      "description": "Contacta uno de nuestros Representantes para registrar tu empresa con nosotros"
+    },
+    "step2": {
+      "title": "Selección de Servicios",
+      "description": "Negociación de tarifas, comisiones por servicio, implementación y capacitación"
+    },
+    "step3": {
+      "title": "Comercialización",
+      "description": "Comienza a comercializar tus productos o servicios con nosotros"
+    }
+  },
+  "SectionApps": {
+    "heading": "Tres aplicaciones en una sola plataforma",
+    "subheading": "Ya sea que estés creando eventos, comprando entradas o administralo, nuestra plataforma integrada tiene todo lo que necesitas.",
+    "moreInfo": "Más Información",
+    "loginCta": "Ir al Login",
+
+    "item1": {
+      "title": "Tu App de gestión de ventas",
+      "description": "Maneja de forma simple y segura el control de acceso y/o la entrega de tus productos o servicios. Con a sin conexión a internet.",
+      "modal": "Controlando a través de nuestra app el acceso a tus eventos o la entrega de tus productos o servicios. Lleva el control y registro de las entradas y salidas."
+    },
+    "item2": {
+      "title": "Gestiona tus canales",
+      "description": "Asigna vendedores o taquilleros y organiza cómo se distribuyen tus tickets, servicios o productos en tus diferentes canales.",
+      "modal": "Organiza todos tus tickets, productos o servicios de manera simple y amigable, asignándole una taquilla o tienda a cada uno de tus aliados comerciales. De esta manera puedes organizar la distribución de tus productos o servicios pudiendo asignar distintos roles administrativos a los colaboradores que operen la aplicación."
+    },
+    "item3": {
+      "title": "Tus entradas, en un solo lugar",
+      "description": "Es donde los usuarios gestionan y manejan sus Entradas y/o Tickets y/o Ordenes. Centraliza la experiencia de tus usuarios con una sola interfaz para adquirir, compartir y ver sus entradas, productos y servicios.",
+      "modal": "Tus clientes acceden al detalle de sus tickets, ordenes, productos y servicios desde la app, sin complicaciones. Pudiendo hacer traspaso de los mismos (P2P) con cualquier otro usuario interesado en adquirirlos. Es un canal de notificaciones directo entre el Artista y/o Productor y/o Marca y sus clientes."
+    }
+  },
+  "SectionServices": {
+    "heading": "¿Cómo contratar nuestros servicios?",
+    "subheading": "Te acompañamos en cada paso para que empieces a vender tus tickets, servicios o eventos con una plataforma potente, segura y hecha para crecer.",
+    "items": [
+      {
+        "title": "Registro empresarial",
+        "desc": "Completa el formulario con tu información legal, cuenta bancaria y documentos clave.",
+        "cta": "Registra tu Empresa"
+      },
+      {
+        "title": "Configuración personalizada",
+        "desc": "Carga tus eventos, productos o servicios: aforo, precios, mapa, diseño, etc. Nuestro equipo te guía paso a paso.",
+        "cta": "Comenzar ahora"
+      },
+      {
+        "title": "Integración y ventas",
+        "desc": "Publicá tu landing page, gestioná taquillas y empezá a vender con control total desde tu Dashboard.",
+        "cta": "Ir al Panel"
+      },
+      {
+        "title": "Publicidad",
+        "desc": "Promocioná tus eventos y productos en nuestra plataforma y redes sociales para maximizar tu alcance.",
+        "cta": "Contactar Soporte"
+      },
+      {
+        "title": "Soporte y análisis",
+        "desc": "Accedé a reportes de ventas, estadísticas y soporte personalizado para optimizar tu negocio.",
+        "cta": "Ver Reportes"
+      },
+      {
+        "title": "Facturación Digital",
+        "desc": "Genera facturas electrónicas automáticamente para cada venta, cumpliendo con las normativas fiscales.",
+        "cta": "Configurar Facturación"
+      }
+    ]
+  },
+  "SectionContact": {
+    "heading": "¿Listo para comenzar?",
+    "description": "Nuestro equipo está listo para ayudarte a transformar la forma en la que vendes productos, servicios o eventos. Escríbenos y nos pondremos en contacto contigo.",
+    "placeholder": "Tu correo electrónico",
+    "cta": "Contáctanos"
+  }
+}

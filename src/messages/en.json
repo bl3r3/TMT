@@ -1,0 +1,95 @@
+{
+  "Nav": {
+    "home": "Home",
+    "contact": "Contact us",
+    "login": "Sign in"
+  },
+  "Hero": {
+    "title": "Transform how \nyou sell",
+    "subtitle": "Register your company and start selling your events today",
+    "cta": "Get started"
+  },
+  "TMT": {
+    "title": "TradeMaster Transactions",
+    "description": "Trade Master Transactions is a transactional platform that enables B2P and P2P commercial exchange in a secure environment designed to protect personal data, both for our clients and their users.",
+    "description2": "Once you agree to our services, you will have access to an Administrative Panel from which you can: Create your event, product, or service. Build your landing page from our Trade Master Transactions platform, with intuitive tools, no coding required, and with all sales channels integrated (e-commerce, payment gateways, and digital billing). Create and manage Ticket Offices and/or Stores. Quote your advertising campaign from the platform, advertising on the social networks of your choice, managing your budget, and accessing campaign indicators and reports. Manage and assign different roles to your team (for example, different types of roles for salespeople, exchange staff, and access control). Access your income and all reports in real time, including digital billing, with its respective bank reconciliation."
+  },
+  "SectionSteps": {
+    "step1": {
+      "title": "Register your company",
+      "description": "Contact one of our Representatives to register your company with us"
+    },
+    "step2": {
+      "title": "Service Selection",
+      "description": "Negotiation of rates, service fees, implementation, and training"
+    },
+    "step3": {
+      "title": "Commercialization",
+      "description": "Start marketing your products or services with us"
+    }
+  },
+  "SectionApps": {
+    "heading": "Three apps in a single platform",
+    "subheading": "Whether you’re creating events, buying tickets, or managing, our integrated platform has everything you need.",
+    "moreInfo": "More information",
+    "loginCta": "Go to Login",
+
+    "item1": {
+      "title": "Your selling app",
+      "description": "Publish your events online with everything you need to sell tickets simply and securely, managing access control and/or the delivery of your products or services.",
+      "modal": "Build your landing page from our platform Trade Master Transactions, with intuitive tools and no need for code, with all sales channels integrated (e-commerce, payment gateways, and digital invoicing). Control access to your events or the delivery of your products or services through our app."
+    },
+    "item2": {
+      "title": "Manage your channels",
+      "description": "Assign salespeople or ticket agents and organize how your tickets, services, or products are distributed across your different channels.",
+      "modal": "Organize all your tickets, products, or services in a simple and user-friendly way, assigning a ticket office or store to each of your business partners. This allows you to organize the distribution of your products or services and assign different administrative roles to the employees who operate the application."
+    },
+    "item3": {
+      "title": "All your tickets in one place",
+      "description": "This is where users manage and handle their Tickets and/or Orders. Centralize your users' experience with a single interface for purchasing, sharing, and viewing their tickets, products, and services.",
+      "modal": "Your customers can access the details of their tickets, orders, products, and services from the app, hassle-free. They can transfer them (P2P) to any other user interested in purchasing them. It is a direct notification channel between the Artist and/or Producer and/or Brand and their customers."
+    }
+  },
+  "SectionServices": {
+    "heading": "How to hire our services?",
+    "subheading": "We guide you at every step so you can start selling your tickets, services or events with a powerful, secure and growth-ready platform.",
+    "items": [
+      {
+        "title": "Business registration",
+        "desc": "Complete the form with your legal info, bank account and required documents.",
+        "cta": "Register your Company"
+      },
+      {
+        "title": "Custom setup",
+        "desc": "Upload events, products or services—capacity, pricing, maps, design, etc. Our team guides you step by step.",
+        "cta": "Get started"
+      },
+      {
+        "title": "Integration & sales",
+        "desc": "Publish your landing page, manage ticket offices and start selling with full control from your Dashboard.",
+        "cta": "Go to Dashboard"
+      },
+      {
+        "title": "Advertising",
+        "desc": "Promote your events and products on our platform and social networks to maximize reach.",
+        "cta": "Contact Support"
+      },
+      {
+        "title": "Support & analytics",
+        "desc": "Access sales reports, analytics and tailored support to optimize your business.",
+        "cta": "View Reports"
+      },
+      {
+        "title": "e-Invoicing",
+        "desc": "Automatically generate electronic invoices for each sale, compliant with tax regulations.",
+        "cta": "Configure e-Invoicing"
+      }
+    ]
+  },
+  "SectionContact": {
+    "heading": "Ready to get started?",
+    "description": "Our team is ready to help you transform the way you sell products, services or events. Write to us and we will get in touch with you.",
+    "placeholder": "Your email address",
+    "cta": "Contact us"
+  }
+}

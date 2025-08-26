@@ -1,0 +1,11 @@
+# robots.txt para Trade Master Transactions
+User-agent: *
+Allow: /
+
+# Bloquea carpetas internas si las hubiera
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://tudominio.com/sitemap.xml
