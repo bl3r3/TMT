@@ -11,10 +11,30 @@ export function SectionContact() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitting(true);
-    // TODO: envía a tu API / webhook / email service
-    // const form = new FormData(e.currentTarget);
-    // await fetch("/api/contact", { method: "POST", body: form });
-    setSubmitting(false);
+    try {
+      const form = new FormData(e.currentTarget);
+      const payload = Object.fromEntries(form.entries());
+
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data?.error || "Failed to send");
+      }
+
+      // Limpia y da feedback
+      (e.currentTarget as HTMLFormElement).reset();
+      alert("✅ ¡Gracias! Te contactaremos pronto.");
+    } catch (err: unknown) {
+      console.error(err);
+      alert("❌ Ocurrió un error al enviar. Intenta nuevamente.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (

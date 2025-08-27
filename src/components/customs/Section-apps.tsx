@@ -106,7 +106,6 @@ export function SectionApps() {
                   </p>
                 </div>
 
-                {/* Dialog CONTROLADO */}
                 <Dialog
                   open={openIndex === i}
                   onOpenChange={(open) => setOpenIndex(open ? i : null)}
