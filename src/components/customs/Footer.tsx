@@ -1,13 +1,4 @@
-import {
-  Facebook,
-  Twitter,
-  Youtube,
-  Instagram,
-  Mail,
-  Phone,
-  MapPin,
-  X,
-} from "lucide-react";
+import { Youtube, Instagram, Mail, MapPin } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -75,7 +66,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Youtube className="hover:text-black" size={20} />
+              <Youtube className="hover:text-black" size={22} />
             </Link>
           </div>
         </div>

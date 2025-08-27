@@ -2,9 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 
-type Props = { params: { locale: string } };
+type Params = { locale: string };
 
-export default async function LoginPage({ params: { locale } }: Props) {
+export default async function LoginPage({
+  params,
+}: {
+  params: Promise<Params>;
+}) {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Login" });
 
   return (
@@ -40,17 +45,11 @@ export default async function LoginPage({ params: { locale } }: Props) {
 
           {/* Acciones */}
           <div className="flex flex-col gap-3">
-            <button
-              type="button"
-              className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-1s"
-            >
+            <button className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-1s">
               {t("btnClient")}
             </button>
 
-            <button
-              type="button"
-              className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-2s"
-            >
+            <button className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-2s">
               {t("btnAdmin")}
             </button>
 
