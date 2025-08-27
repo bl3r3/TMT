@@ -101,5 +101,28 @@
     "btnClient": "Iniciar sesión como Cliente",
     "btnAdmin": "Iniciar sesión como Administrador",
     "cta": "¿No tienes cuenta? Comienza ahora"
+  },
+
+  "SectionContact": {
+    "heading": "¿Listo para comenzar?",
+    "description": "Déjanos tus datos y te contactamos para ayudarte a vender más.",
+    "cta": "Enviar",
+    "sending": "Enviando…",
+    "form": {
+      "company": "Nombre de la empresa o Firma Personal",
+      "rif": "RIF",
+      "email": "Correo electrónico",
+      "phone": "Celular",
+      "socials": "Redes Sociales",
+      "project": "Háblanos de tu proyecto, ¿qué te gustaría vender?"
+    },
+    "placeholders": {
+      "company": "My company",
+      "rif": "J-12345678-9",
+      "email": "tu@correo.com",
+      "phone": "+58 412 1234567",
+      "socials": "@tuusuario o enlaces",
+      "project": "Cuéntanos brevemente sobre tu negocio o idea…"
+    }
   }
 }

@@ -149,7 +149,7 @@ export function SectionApps() {
                             <hr className="col-span-full my-3" />
                             <div className="col-span-full flex flex-col items-center md:items-start gap-2">
                               <p className="text-sm text-neutral-600">
-                                Encuéntranos también en App Store y Google Play
+                                Encuéntranos también en:
                               </p>
                               <div className="flex flex-wrap flex-col justify-center md:flex-row md:justify-center w-full items-center gap-3">
                                 {/* App Store */}

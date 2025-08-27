@@ -117,7 +117,8 @@ export function Navbar() {
         <div className="ml-auto md:ml-0 hidden md:flex items-center gap-4">
           <Button
             variant="outline"
-            className="border-white text-black hover:bg-white hover:text-black"
+            className="border-white text-black hover:bg-white hover:cursor-pointer hover:text-black"
+            onClick={() => router.push(`/${locale}/login`)}
           >
             {t("login")}
           </Button>

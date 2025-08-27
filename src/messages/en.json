@@ -101,5 +101,28 @@
     "btnClient": "Sign in as Customer",
     "btnAdmin": "Sign in as Admin",
     "cta": "No account? Start now"
+  },
+
+  "SectionContact": {
+    "heading": "Ready to get started?",
+    "description": "Leave your details and we’ll contact you to help you sell more.",
+    "cta": "Send",
+    "sending": "Sending…",
+    "form": {
+      "company": "Company name or Sole Proprietor",
+      "rif": "RIF (Tax ID)",
+      "email": "Email",
+      "phone": "Mobile phone",
+      "socials": "Social media",
+      "project": "Tell us about your project—what would you like to sell?"
+    },
+    "placeholders": {
+      "company": "My company",
+      "rif": "J-12345678-9",
+      "email": "you@email.com",
+      "phone": "+58 412 123 4567",
+      "socials": "@yourhandle or links",
+      "project": "Briefly tell us about your business or idea…"
+    }
   }
 }
