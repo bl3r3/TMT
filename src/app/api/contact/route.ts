@@ -43,7 +43,7 @@ function mailHtml(data: z.infer<typeof schema>) {
 export async function POST(req: Request) {
   try {
     const contentType = req.headers.get("content-type") || "";
-    let payload: any;
+    let payload: Record<string, unknown>;
 
     if (contentType.includes("application/json")) {
       payload = await req.json();
@@ -93,13 +93,16 @@ Redes: ${parsed.socials || "-"}
 Proyecto:
 ${parsed.project}
       `.trim(),
-      replyTo: parsed.email, // para responder directo al cliente
+      replyTo: parsed.email,
     });
 
     return NextResponse.json({ ok: true });
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error("CONTACT_ERROR", err);
-    const msg = err?.message || "Unknown error";
+    const msg =
+      err && typeof err === "object" && "message" in err
+        ? (err as { message?: string }).message || "Unknown error"
+        : "Unknown error";
     return NextResponse.json({ ok: false, error: msg }, { status: 400 });
   }
 }
