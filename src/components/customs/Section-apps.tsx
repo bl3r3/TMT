@@ -6,6 +6,8 @@ import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import Link from "next/link";
 
 type AppItem = {
   title: string;
@@ -109,7 +111,6 @@ export function SectionApps() {
                     </DialogTrigger>
                     <DialogContent className="max-w-2xl">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                        {/* Logo a la izquierda */}
                         <div
                           className={`flex justify-center items-center ${item.bgModalColor} rounded-md p-4`}
                         >
@@ -123,7 +124,6 @@ export function SectionApps() {
                           </div>
                         </div>
 
-                        {/* Texto a la derecha */}
                         <div className="space-y-4">
                           <h2 className="text-lg font-bold">{item.title}</h2>
                           <p className="text-sm text-gray-600 text-justify">
@@ -137,6 +137,27 @@ export function SectionApps() {
                             <Button>{t("loginCta")}</Button>
                           </a>
                         </div>
+                        {i === 2 && (
+                          <div className="flex justify-center items-center w-100 gap-2">
+                            <Link
+                              href="https://www.instagram.com/carticket_?igsh=amR1NXlmMXlweDUz&utm_source=qr"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Instagram
+                                className="hover:text-black"
+                                size={20}
+                              />
+                            </Link>
+                            <Link
+                              href="https://www.youtube.com/@CarticketTMT"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Youtube className="hover:text-black" size={20} />
+                            </Link>
+                          </div>
+                        )}
                       </div>
                     </DialogContent>
                   </Dialog>

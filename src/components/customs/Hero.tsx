@@ -58,7 +58,15 @@ export function Hero() {
         <h2 className="text-lg md:text-xl text-white mb-6 animate__animated animate__backInUp animate__delay-1s">
           {t("subtitle")}
         </h2>
-        <Button className="text-base px-8 py-6 rounded-full bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 text-white animate__animated animate__backInUp animate__delay-2s">
+        <Button
+          className="text-base px-8 py-6 rounded-full bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 text-white animate__animated animate__backInUp animate__delay-2s hover:cursor-pointer"
+          onClick={() => {
+            const element = document.getElementById("section-contact");
+            if (element) {
+              element.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
           {t("cta")}
         </Button>
       </div>

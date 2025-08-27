@@ -3,7 +3,7 @@
 import { motion, type Variants, useReducedMotion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useMediaQuery } from "../../hooks/useMediaQuery";
 
 type Service = {
@@ -16,6 +16,7 @@ type Service = {
 
 export function SectionServices() {
   const t = useTranslations("SectionServices");
+  const locale = useLocale();
 
   // mq: boolean | null
   const mq = useMediaQuery("(max-width: 767.98px)");
@@ -29,42 +30,42 @@ export function SectionServices() {
       title: t("items.0.title"),
       description: t("items.0.desc"),
       linkText: t("items.0.cta"),
-      href: "#",
+      href: "/login",
     },
     {
       icon: "💸",
       title: t("items.1.title"),
       description: t("items.1.desc"),
       linkText: t("items.1.cta"),
-      href: "#",
+      href: "/login",
     },
     {
       icon: "🏆",
       title: t("items.2.title"),
       description: t("items.2.desc"),
       linkText: t("items.2.cta"),
-      href: "#",
+      href: `/${locale}/login`,
     },
     {
       icon: "📱",
       title: t("items.3.title"),
       description: t("items.3.desc"),
       linkText: t("items.3.cta"),
-      href: "#",
+      href: `/${locale}/login`,
     },
     {
       icon: "📊",
       title: t("items.4.title"),
       description: t("items.4.desc"),
       linkText: t("items.4.cta"),
-      href: "#",
+      href: `/${locale}/login`,
     },
     {
       icon: "🧾",
       title: t("items.5.title"),
       description: t("items.5.desc"),
       linkText: t("items.5.cta"),
-      href: "#",
+      href: `/${locale}/login`,
     },
   ];
 
@@ -111,9 +112,9 @@ export function SectionServices() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           {services.map((s, i) => (
             <motion.div
-              key={`${isResolved ? (isMobile ? "m" : "d") : "pending"}-${i}`} // remonta al resolver el MQ
+              key={`${isResolved ? (isMobile ? "m" : "d") : "pending"}-${i}`}
               variants={variants}
-              initial="hidden" // SIEMPRE hidden para que arranque
+              initial="hidden"
               whileInView="show"
               viewport={{ once: true, amount: 0.3 }}
               custom={i}

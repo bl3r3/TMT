@@ -5,14 +5,14 @@
     "login": "Iniciar Sesión"
   },
   "Hero": {
-    "title": "Transforma tu \nforma de vender",
+    "title": "Evoluciona tu \nforma de vender",
     "subtitle": "Registra tu empresa y empieza a vender tus eventos hoy",
     "cta": "Comenzar ahora"
   },
   "TMT": {
     "title": "TradeMaster Transactions",
-    "description": "Trade Master Transactions es una plataforma transaccional que permite el intercambio comercial B2P y P2P, en un ambiente magistral diseñado para la protección de datos personales, tanto para nuestros clientes como para sus usuarios.",
-    "description2": "Una vez que pactes nuestros servicios, tendrás acceso a un Panel Administrativo desde el cual podrás: Crear tu evento, producto o servicio. Construir tu landing page desde nuestra plataforma Trade Master Transactions, con herramientas intuitivas, sin necesidad de código, y con todos los canales de ventas integrados (e-commerce, pasarelas de pago y facturación digital). Crear y gestionar Taquillas y/o Tiendas. Cotizar tu campaña publicitaria desde la plataforma, anunciándote en las redes sociales que elijas, administrando el presupuesto y accediendo a los indicadores y reportes de la campaña. Gerenciar y asignar distintos roles a tu equipo (por ejemplo, diferentes tipos de roles para vendedores, personal de canje y control de acceso). Acceder en tiempo real a tus ingresos y a toda la reportaría, incluida la facturación digital, con su respectiva conciliación bancaria."
+    "description": "Trade Master Transactions es una plataforma transaccional que facilita el intercambio B2P y P2P en un entorno diseñado para la protección de datos personales de clientes y usuarios.",
+    "description2": "Con nuestro servicio corporativo, obtendrás un Panel Administrativo que te permitirá: Crear eventos, productos o servicios alineados a tu estrategia. Construir landing pages sin necesidad de código, con herramientas intuitivas y canales de ventas integrados (e-commerce, pasarelas de pago y facturación digital). Crear y gestionar Taquillas y/o Tiendas para tus canales de venta. Cotizar y gestionar campañas publicitarias desde la plataforma: seleccionar redes, administrar presupuestos y obtener indicadores y reportes de rendimiento. Definir y asignar roles para tu equipo (vendedores, personal de canje, control de acceso, etc.). Visualizar ingresos y reportes en tiempo real, con facturación digital y conciliación bancaria correspondiente."
   },
   "SectionSteps": {
     "step1": {
@@ -36,18 +36,18 @@
 
     "item1": {
       "title": "Tu App de gestión de ventas",
-      "description": "Maneja de forma simple y segura el control de acceso y/o la entrega de tus productos o servicios. Con a sin conexión a internet.",
-      "modal": "Controlando a través de nuestra app el acceso a tus eventos o la entrega de tus productos o servicios. Lleva el control y registro de las entradas y salidas."
+      "description": "Gestiona de forma simple y segura el control de acceso y la entrega de tus productos o servicios, incluso sin conexión a Internet.",
+      "modal": "Con nuestra app, controla el acceso a tus eventos y la entrega de tus productos o servicios, con registro y seguimiento de entradas y salidas en todo momento."
     },
     "item2": {
       "title": "Gestiona tus canales",
-      "description": "Asigna vendedores o taquilleros y organiza cómo se distribuyen tus tickets, servicios o productos en tus diferentes canales.",
-      "modal": "Organiza todos tus tickets, productos o servicios de manera simple y amigable, asignándole una taquilla o tienda a cada uno de tus aliados comerciales. De esta manera puedes organizar la distribución de tus productos o servicios pudiendo asignar distintos roles administrativos a los colaboradores que operen la aplicación."
+      "description": "Gestiona la fuerza de ventas y la distribución de tus entradas, tickets y productos en múltiples canales de forma simple y organizada.",
+      "modal": "Asigna vendedores o taquilleros y define cómo se distribuyen tus tickets, servicios o productos en cada canal. Organiza todos tus productos y servicios de manera clara y amigable, asignándoles una taquilla o tienda a cada aliado comercial. Configura distintos roles administrativos para los colaboradores que operan la aplicación, gestionando permisos y responsabilidades."
     },
     "item3": {
       "title": "Tus entradas, en un solo lugar",
-      "description": "Es donde los usuarios gestionan y manejan sus Entradas y/o Tickets y/o Ordenes. Centraliza la experiencia de tus usuarios con una sola interfaz para adquirir, compartir y ver sus entradas, productos y servicios.",
-      "modal": "Tus clientes acceden al detalle de sus tickets, ordenes, productos y servicios desde la app, sin complicaciones. Pudiendo hacer traspaso de los mismos (P2P) con cualquier otro usuario interesado en adquirirlos. Es un canal de notificaciones directo entre el Artista y/o Productor y/o Marca y sus clientes."
+      "description": "Es la solución para que los usuarios gestionen y administren sus entradas, tickets y órdenes desde una única plataforma. Centraliza la experiencia de tus usuarios en una interfaz unificada para adquirir, compartir y visualizar entradas, productos y servicios.",
+      "modal": "Los clientes acceden al detalle de sus tickets, órdenes, productos y servicios desde la app, de forma ágil y sin complicaciones. Es posible transferir entradas entre usuarios (P2P), facilitando el traspaso a quien esté interesado en adquirirlas. Actúa como un canal de notificaciones directo entre artistas, productores o marcas y sus clientes, manteniéndolos informados en tiempo real."
     }
   },
   "SectionServices": {
@@ -91,5 +91,15 @@
     "description": "Nuestro equipo está listo para ayudarte a transformar la forma en la que vendes productos, servicios o eventos. Escríbenos y nos pondremos en contacto contigo.",
     "placeholder": "Tu correo electrónico",
     "cta": "Contáctanos"
+  },
+  "Login": {
+    "imageAlt": "Butacas de estadio",
+    "logoAlt": "Logo",
+    "titleLine1": "¡Hola!",
+    "titleLine2": "Evoluciona tu forma de vender",
+    "subtitle": "Impulsá tus relaciones comerciales, optimizá el seguimiento de tus clientes y potenciá tus ventas.",
+    "btnClient": "Iniciar sesión como Cliente",
+    "btnAdmin": "Iniciar sesión como Administrador",
+    "cta": "¿No tienes cuenta? Comienza ahora"
   }
 }

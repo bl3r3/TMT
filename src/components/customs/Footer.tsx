@@ -6,6 +6,7 @@ import {
   Mail,
   Phone,
   MapPin,
+  X,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -15,10 +16,9 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Marca */}
         <div>
-          <h3 className="text-lg font-bold mb-2">TRADEMASTER</h3>
+          <h3 className="text-lg font-bold mb-2">TRADE MASTER TRANSACTIONS</h3>
           <p className="text-sm text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            pharetra condimentum.
+            Tu plataforma transaccional para B2P y P2P.
           </p>
         </div>
 
@@ -27,13 +27,10 @@ export function Footer() {
           <h3 className="text-lg font-bold mb-2">Contáctanos</h3>
           <ul className="text-sm text-gray-600 space-y-2">
             <li className="flex items-center gap-2">
-              <MapPin size={16} /> 732 Despard St, Atlanta
+              <MapPin size={16} /> Caracas D.C, Venezuela
             </li>
             <li className="flex items-center gap-2">
-              <Mail size={16} /> info@traveller.com
-            </li>
-            <li className="flex items-center gap-2">
-              <Phone size={16} /> +97 888 8888
+              <Mail size={16} /> legal@trademastertransactions.com
             </li>
           </ul>
         </div>
@@ -60,17 +57,25 @@ export function Footer() {
         <div>
           <h3 className="text-lg font-bold mb-2">Follow Us</h3>
           <div className="flex gap-4 text-gray-600">
-            <Link href="#">
+            {/* <Link href="#">
               <Facebook className="hover:text-black" size={20} />
             </Link>
             <Link href="#">
-              <Twitter className="hover:text-black" size={20} />
-            </Link>
-            <Link href="#">
-              <Youtube className="hover:text-black" size={20} />
-            </Link>
-            <Link href="#">
+              <X className="hover:text-black" size={20} />
+            </Link> */}
+            <Link
+              href="https://www.instagram.com/trademastertransaction?igsh=ZG1yMHh0ZGZjNjNj&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Instagram className="hover:text-black" size={20} />
+            </Link>
+            <Link
+              href="https://www.youtube.com/@TradeMasterTransactions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Youtube className="hover:text-black" size={20} />
             </Link>
           </div>
         </div>
@@ -78,7 +83,7 @@ export function Footer() {
 
       {/* Footer inferior */}
       <div className="bg-black text-white text-center py-4 text-sm font-medium">
-        Copyright © All rights reserved
+        Copyright Trade Master Transactions, LLC © All rights reserved
       </div>
     </footer>
   );

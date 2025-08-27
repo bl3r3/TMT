@@ -10,9 +10,9 @@
     "cta": "Get started"
   },
   "TMT": {
-    "title": "TradeMaster Transactions",
-    "description": "Trade Master Transactions is a transactional platform that enables B2P and P2P commercial exchange in a secure environment designed to protect personal data, both for our clients and their users.",
-    "description2": "Once you agree to our services, you will have access to an Administrative Panel from which you can: Create your event, product, or service. Build your landing page from our Trade Master Transactions platform, with intuitive tools, no coding required, and with all sales channels integrated (e-commerce, payment gateways, and digital billing). Create and manage Ticket Offices and/or Stores. Quote your advertising campaign from the platform, advertising on the social networks of your choice, managing your budget, and accessing campaign indicators and reports. Manage and assign different roles to your team (for example, different types of roles for salespeople, exchange staff, and access control). Access your income and all reports in real time, including digital billing, with its respective bank reconciliation."
+    "title": "Trade Master Transactions",
+    "description": "Trade Master Transactions is a transactional platform that facilitates B2P and P2P exchanges in an environment designed to protect the personal data of customers and users.",
+    "description2": "With our corporate service, you will get an Administrative Panel that will allow you to: Create events, products, or services aligned with your strategy. Build landing pages without the need for code, with intuitive tools and integrated sales channels (e-commerce, payment gateways, and digital billing). Create and manage Ticket Offices and/or Stores for your sales channels. Quote and manage advertising campaigns from the platform: select networks, manage budgets, and obtain performance indicators and reports. Define and assign roles for your team (salespeople, exchange staff, access control, etc.). View revenue and reports in real time, with digital billing and corresponding bank reconciliation."
   },
   "SectionSteps": {
     "step1": {
@@ -36,18 +36,18 @@
 
     "item1": {
       "title": "Your selling app",
-      "description": "Publish your events online with everything you need to sell tickets simply and securely, managing access control and/or the delivery of your products or services.",
-      "modal": "Build your landing page from our platform Trade Master Transactions, with intuitive tools and no need for code, with all sales channels integrated (e-commerce, payment gateways, and digital invoicing). Control access to your events or the delivery of your products or services through our app."
+      "description": "Manage access control and the delivery of your products or services simply and securely, even without an internet connection.",
+      "modal": "With our app, control access to your events and the delivery of your products or services, with registration and tracking of entries and exits at all times."
     },
     "item2": {
       "title": "Manage your channels",
-      "description": "Assign salespeople or ticket agents and organize how your tickets, services, or products are distributed across your different channels.",
-      "modal": "Organize all your tickets, products, or services in a simple and user-friendly way, assigning a ticket office or store to each of your business partners. This allows you to organize the distribution of your products or services and assign different administrative roles to the employees who operate the application."
+      "description": "Manage your sales force and the distribution of your tickets and products across multiple channels in a simple and organized way.",
+      "modal": "Assign salespeople or ticket sellers and define how your tickets, services, or products are distributed on each channel. Organize all your products and services in a clear and user-friendly way, assigning a ticket office or store to each business partner. Configure different administrative roles for employees who operate the application, managing permissions and responsibilities."
     },
     "item3": {
       "title": "All your tickets in one place",
-      "description": "This is where users manage and handle their Tickets and/or Orders. Centralize your users' experience with a single interface for purchasing, sharing, and viewing their tickets, products, and services.",
-      "modal": "Your customers can access the details of their tickets, orders, products, and services from the app, hassle-free. They can transfer them (P2P) to any other user interested in purchasing them. It is a direct notification channel between the Artist and/or Producer and/or Brand and their customers."
+      "description": "It is the solution for users to manage and administer their tickets and orders from a single platform. Centralize your users' experience in a unified interface to purchase, share, and view tickets, products, and services.",
+      "modal": "Customers can access the details of their tickets, orders, products, and services from the app, quickly and easily. Tickets can be transferred between users (P2P), making it easy to transfer them to anyone interested in purchasing them. It acts as a direct notification channel between artists, producers, or brands and their customers, keeping them informed in real time."
     }
   },
   "SectionServices": {
@@ -91,5 +91,15 @@
     "description": "Our team is ready to help you transform the way you sell products, services or events. Write to us and we will get in touch with you.",
     "placeholder": "Your email address",
     "cta": "Contact us"
+  },
+  "Login": {
+    "imageAlt": "Stadium seats",
+    "logoAlt": "Logo",
+    "titleLine1": "Hello!",
+    "titleLine2": "Evolve the way you sell",
+    "subtitle": "Boost your commercial relationships, optimize client follow-ups and grow your sales.",
+    "btnClient": "Sign in as Customer",
+    "btnAdmin": "Sign in as Admin",
+    "cta": "No account? Start now"
   }
 }

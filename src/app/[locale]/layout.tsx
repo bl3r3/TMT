@@ -1,18 +1,13 @@
 import { NextIntlClientProvider } from "next-intl";
 import "../globals.css";
 
-type Params = { locale: "es" | "en" };
-
 export default async function LocaleLayout({
   children,
-  params,
+  params: { locale },
 }: {
   children: React.ReactNode;
-  params: Promise<Params>;
+  params: { locale: "es" | "en" };
 }) {
-  const awaited = params instanceof Promise ? await params : params;
-  const locale = awaited.locale;
-
   const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
