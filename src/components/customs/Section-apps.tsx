@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Instagram, Youtube } from "lucide-react";
 import Link from "next/link";
@@ -22,9 +22,7 @@ type AppItem = {
 export function SectionApps() {
   const t = useTranslations("SectionApps");
   const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  const reduceMotion = useReducedMotion();
 
   const items: AppItem[] = [
     {
@@ -70,12 +68,11 @@ export function SectionApps() {
           {items.map((item, i) => (
             <motion.div
               key={i}
-              initial={false}
-              whileInView={mounted ? { opacity: 1, y: 0 } : undefined}
-              viewport={mounted ? { once: true, amount: 0.2 } : undefined}
-              transition={{ duration: 0.6, delay: i * 0.2 }}
+              initial={reduceMotion ? false : { opacity: 0, y: 50 }}
+              whileInView={reduceMotion ? undefined : { opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.6, delay: i * 0.2, ease: "easeOut" }}
               className="bg-white rounded-lg shadow text-left space-y-4 transition-all duration-300 transform min-h-[420px] flex flex-col justify-between"
-              style={!mounted ? { opacity: 1, transform: "none" } : undefined}
             >
               {/* Logo container */}
               <div
@@ -144,7 +141,6 @@ export function SectionApps() {
                                 Encuéntranos también en:
                               </p>
                               <div className="flex flex-wrap flex-col justify-center md:flex-row md:justify-center w-full items-center gap-3">
-                                {/* App Store */}
                                 <Link
                                   href="https://apps.apple.com/app/idXXXXXXXX"
                                   target="_blank"
@@ -160,8 +156,6 @@ export function SectionApps() {
                                     priority
                                   />
                                 </Link>
-
-                                {/* Google Play */}
                                 <Link
                                   href="https://play.google.com/store/apps/details?id=com.tuapp"
                                   target="_blank"
@@ -182,6 +176,7 @@ export function SectionApps() {
                         )}
                       </div>
                     </div>
+
                     {i === 2 && (
                       <div className="flex justify-center items-center w-full gap-3">
                         <Link

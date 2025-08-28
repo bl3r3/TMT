@@ -1,6 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from 'next-intl/server';
 import "../globals.css";
+import { ThemeProvider } from "../../components/theme-provider";
 
 export default async function LocaleLayout({
   children,
@@ -9,16 +9,21 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: Promise<{ locale: "es" | "en" }>;
 }) {
-  const resolvedParams = await params;
-  const locale = resolvedParams.locale;
-  const messages = await getMessages({ locale });
+  const { locale } = await params;
+  const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="light" suppressHydrationWarning>
+      <head>
+        <meta name="color-scheme" content="light" />
+        <meta name="theme-color" content="#ffffff" />
+      </head>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <ThemeProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
