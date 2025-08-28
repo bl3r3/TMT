@@ -6,6 +6,7 @@ import { SectionApps } from "../../components/customs/Section-apps";
 import { SectionServices } from "../../components/customs/Section-services";
 import { SectionContact } from "../../components/customs/Section-contact";
 import { Footer } from "../../components/customs/Footer";
+import { SectionClients } from "../../components/customs/Section-clients";
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
         <SectionAboutTMT />
         <SectionSteps />
         <SectionApps />
+        <SectionClients />
         <SectionServices />
         <SectionContact />
         <Footer />

@@ -1,3 +1,4 @@
+"use client";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -18,7 +19,6 @@ export function SectionAboutTMT() {
           </div>
         </div>
 
-        {/* Texto descriptivo */}
         <div className="space-y-6">
           <p className="text-base leading-relaxed text-gray-700 text-justify">
             {t("description")}

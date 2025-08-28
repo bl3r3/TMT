@@ -86,12 +86,6 @@
       }
     ]
   },
-  "SectionContact": {
-    "heading": "¿Listo para comenzar?",
-    "description": "Nuestro equipo está listo para ayudarte a transformar la forma en la que vendes productos, servicios o eventos. Escríbenos y nos pondremos en contacto contigo.",
-    "placeholder": "Tu correo electrónico",
-    "cta": "Contáctanos"
-  },
   "Login": {
     "imageAlt": "Butacas de estadio",
     "logoAlt": "Logo",
@@ -124,5 +118,26 @@
       "socials": "@tuusuario o enlaces",
       "project": "Cuéntanos brevemente sobre tu negocio o idea…"
     }
+  },
+
+  "Footer": {
+    "brandTitle": "TRADE MASTER TRANSACTIONS",
+    "brandTagline": "Tu plataforma transaccional para B2P y P2P.",
+    "contact": "Contáctanos",
+    "address": "Caracas D.C., Venezuela",
+    "info": "Información",
+    "links": {
+      "home": "Inicio",
+      "faq": "Preguntas Frecuentes",
+      "privacy": "Políticas de Privacidad",
+      "terms": "Términos y Condiciones"
+    },
+    "followUs": "Síguenos",
+    "copyright": "Copyright Trade Master Transactions © Todos los derechos reservados"
+  },
+  "Clients": {
+    "heading": "Líderes con visión confían en nosotros",
+    "subheading": "Estamos para el largo plazo: desde nuestra relación contigo hasta la que tienes con tus clientes. Tus metas son nuestras metas, y juntos encontramos el norte y grandes ideas.",
+    "aria": "Logos de clientes que confían en nosotros"
   }
 }

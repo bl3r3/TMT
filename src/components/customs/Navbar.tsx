@@ -25,7 +25,6 @@ export function Navbar() {
     router.push(parts.join("/"));
   };
 
-  // Bloquear scroll de body cuando el menú está abierto
   useEffect(() => {
     const body = document.body;
     const prevOverflow = body.style.overflow;
@@ -45,7 +44,6 @@ export function Navbar() {
     };
   }, [isOpen]);
 
-  // Cerrar con ESC
   const onKeyDown = useCallback((e: KeyboardEvent) => {
     if (e.key === "Escape") setIsOpen(false);
   }, []);
@@ -55,7 +53,6 @@ export function Navbar() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [isOpen, onKeyDown]);
 
-  // Cambiar fondo en desktop al scrollear
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
     onScroll();
@@ -66,10 +63,8 @@ export function Navbar() {
   return (
     <header
       className={clsx(
-        // ✅ fijo en mobile cuando el menú está abierto; sticky en desktop
         isOpen ? "fixed" : "sticky md:sticky",
         "top-0 left-0 w-full z-[100] transition-colors duration-300",
-        // Forzamos bg sólido cuando el overlay está abierto
         isOpen
           ? "bg-black"
           : scrolled
@@ -142,9 +137,7 @@ export function Navbar() {
         aria-hidden={!isOpen}
         className={clsx(
           "fixed inset-0 z-[110] md:hidden",
-          // ✅ altura 100% real en móviles (varias unidades por compatibilidad)
           "h-screen min-h-[100svh] min-h-[100dvh]",
-          // el overlay maneja su propio scroll y no el body
           "overflow-y-auto overscroll-contain",
           "bg-black/90 text-white flex flex-col items-center justify-center",
           "transition-all duration-300 ease-in-out",

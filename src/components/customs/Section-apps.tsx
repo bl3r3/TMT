@@ -70,9 +70,7 @@ export function SectionApps() {
           {items.map((item, i) => (
             <motion.div
               key={i}
-              // ⛔️ Nada de initial SSR: evitamos diferencias HTML/cliente
               initial={false}
-              // ✅ Animar solo una vez cuando ya montó
               whileInView={mounted ? { opacity: 1, y: 0 } : undefined}
               viewport={mounted ? { once: true, amount: 0.2 } : undefined}
               transition={{ duration: 0.6, delay: i * 0.2 }}
@@ -154,7 +152,7 @@ export function SectionApps() {
                                   aria-label="Disponible en el App Store"
                                 >
                                   <Image
-                                    src="/app_badge.png" // <= ruta desde /public
+                                    src="/app_badge.png"
                                     alt="Disponible en el App Store"
                                     width={160}
                                     height={48}

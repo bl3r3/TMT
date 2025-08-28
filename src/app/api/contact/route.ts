@@ -66,7 +66,6 @@ export async function POST(req: Request) {
       project: String(payload.project || ""),
     });
 
-    // Transport Gmail (App Password)
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {

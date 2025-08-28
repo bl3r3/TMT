@@ -18,10 +18,9 @@ export function SectionServices() {
   const t = useTranslations("SectionServices");
   const locale = useLocale();
 
-  // mq: boolean | null
   const mq = useMediaQuery("(max-width: 767.98px)");
   const isResolved = mq !== null;
-  const isMobile = mq ?? true; // mobile-first para evitar “flash”
+  const isMobile = mq ?? true;
   const reduceMotion = useReducedMotion();
 
   const services: Service[] = [
@@ -30,14 +29,14 @@ export function SectionServices() {
       title: t("items.0.title"),
       description: t("items.0.desc"),
       linkText: t("items.0.cta"),
-      href: "/login",
+      href: `/${locale}/login`,
     },
     {
       icon: "💸",
       title: t("items.1.title"),
       description: t("items.1.desc"),
       linkText: t("items.1.cta"),
-      href: "/login",
+      href: `/${locale}/login`,
     },
     {
       icon: "🏆",
@@ -69,7 +68,6 @@ export function SectionServices() {
     },
   ];
 
-  // Variants: mobile => fade-up, desktop => slide-in-right
   const mobileVar: Variants = {
     hidden: { opacity: 0, y: 60 },
     show: (i: number) => ({

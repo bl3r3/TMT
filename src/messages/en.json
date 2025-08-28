@@ -86,12 +86,6 @@
       }
     ]
   },
-  "SectionContact": {
-    "heading": "Ready to get started?",
-    "description": "Our team is ready to help you transform the way you sell products, services or events. Write to us and we will get in touch with you.",
-    "placeholder": "Your email address",
-    "cta": "Contact us"
-  },
   "Login": {
     "imageAlt": "Stadium seats",
     "logoAlt": "Logo",
@@ -124,5 +118,25 @@
       "socials": "@yourhandle or links",
       "project": "Briefly tell us about your business or idea…"
     }
+  },
+  "Footer": {
+    "brandTitle": "TRADE MASTER TRANSACTIONS",
+    "brandTagline": "Your transactional platform for B2P and P2P.",
+    "contact": "Contact us",
+    "address": "Caracas D.C., Venezuela",
+    "info": "Information",
+    "links": {
+      "home": "Home",
+      "faq": "FAQ",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    },
+    "followUs": "Follow Us",
+    "copyright": "Copyright Trade Master Transactions © All rights reserved"
+  },
+  "Clients": {
+    "heading": "Trusted by business-savvy leaders",
+    "subheading": "We’re in it for the long haul—from our relationship with you to your relationship with your customers. Your goals are our goals, and together we find your north star and come up with great ideas.",
+    "aria": "Logos of customers who trust us"
   }
 }

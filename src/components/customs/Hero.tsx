@@ -11,7 +11,6 @@ export function Hero() {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      // Mostrar video en todos los tamaños
       setShowVideo(true);
     }
   }, []);
