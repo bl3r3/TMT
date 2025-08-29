@@ -47,7 +47,8 @@
     "item3": {
       "title": "Tus entradas, en un solo lugar",
       "description": "Es la solución para que los usuarios gestionen y administren sus entradas, tickets y órdenes desde una única plataforma. Centraliza la experiencia de tus usuarios en una interfaz unificada para adquirir, compartir y visualizar entradas, productos y servicios.",
-      "modal": "Los clientes acceden al detalle de sus tickets, órdenes, productos y servicios desde la app, de forma ágil y sin complicaciones. Es posible transferir entradas entre usuarios (P2P), facilitando el traspaso a quien esté interesado en adquirirlas. Actúa como un canal de notificaciones directo entre artistas, productores o marcas y sus clientes, manteniéndolos informados en tiempo real."
+      "modal": "Los clientes acceden al detalle de sus tickets, órdenes, productos y servicios desde la app, de forma ágil y sin complicaciones. Es posible transferir entradas entre usuarios (P2P), facilitando el traspaso a quien esté interesado en adquirirlas. Actúa como un canal de notificaciones directo entre artistas, productores o marcas y sus clientes, manteniéndolos informados en tiempo real.",
+      "call": "Encuéntranos también en:"
     }
   },
   "SectionServices": {

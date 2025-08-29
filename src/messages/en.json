@@ -47,7 +47,8 @@
     "item3": {
       "title": "All your tickets in one place",
       "description": "It is the solution for users to manage and administer their tickets and orders from a single platform. Centralize your users' experience in a unified interface to purchase, share, and view tickets, products, and services.",
-      "modal": "Customers can access the details of their tickets, orders, products, and services from the app, quickly and easily. Tickets can be transferred between users (P2P), making it easy to transfer them to anyone interested in purchasing them. It acts as a direct notification channel between artists, producers, or brands and their customers, keeping them informed in real time."
+      "modal": "Customers can access the details of their tickets, orders, products, and services from the app, quickly and easily. Tickets can be transferred between users (P2P), making it easy to transfer them to anyone interested in purchasing them. It acts as a direct notification channel between artists, producers, or brands and their customers, keeping them informed in real time.",
+      "call": "Find us also on:"
     }
   },
   "SectionServices": {
@@ -103,8 +104,8 @@
     "cta": "Send",
     "sending": "Sending…",
     "form": {
-      "company": "Company name or Sole Proprietor",
-      "rif": "RIF (Tax ID)",
+      "company": "Company name or Seller",
+      "rif": "Tax ID",
       "email": "Email",
       "phone": "Mobile phone",
       "socials": "Social media",
@@ -114,7 +115,7 @@
       "company": "My company",
       "rif": "J-12345678-9",
       "email": "you@email.com",
-      "phone": "+58 412 123 4567",
+      "phone": "+1 212 456 7890",
       "socials": "@yourhandle or links",
       "project": "Briefly tell us about your business or idea…"
     }

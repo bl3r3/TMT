@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Instagram, Youtube } from "lucide-react";
 import Link from "next/link";
 
@@ -24,6 +24,8 @@ export function SectionApps() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const reduceMotion = useReducedMotion();
 
+  const locale = useLocale();
+
   const items: AppItem[] = [
     {
       title: t("item1.title"),
@@ -32,7 +34,7 @@ export function SectionApps() {
       srcImg: "/Ticketake_h.png",
       bgColor: "bg-[#1b2a35]",
       bgModalColor: "bg-[#1b2a35]",
-      loginUrl: "/",
+      loginUrl: `/${locale}/login`,
     },
     {
       title: t("item2.title"),
@@ -41,7 +43,7 @@ export function SectionApps() {
       srcImg: "/TaquillaMaster_h.png",
       bgColor: "bg-[#330A1A]",
       bgModalColor: "bg-[#330A1A]",
-      loginUrl: "/",
+      loginUrl: `/${locale}/login`,
     },
     {
       title: t("item3.title"),
@@ -50,7 +52,7 @@ export function SectionApps() {
       srcImg: "/Carticket_h.png",
       bgColor: "bg-[#133329]",
       bgModalColor: "bg-[#133329]",
-      loginUrl: "/",
+      loginUrl: `/${locale}/login`,
     },
   ];
 
@@ -138,7 +140,7 @@ export function SectionApps() {
                             <hr className="col-span-full my-3" />
                             <div className="col-span-full flex flex-col items-center md:items-start gap-2">
                               <p className="text-sm text-neutral-600">
-                                Encuéntranos también en:
+                                {t("item3.call")}
                               </p>
                               <div className="flex flex-wrap flex-col justify-center md:flex-row md:justify-center w-full items-center gap-3">
                                 <Link
