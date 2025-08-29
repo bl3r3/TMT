@@ -144,7 +144,7 @@ export function SectionApps() {
                               </p>
                               <div className="flex flex-wrap flex-col justify-center md:flex-row md:justify-center w-full items-center gap-3">
                                 <Link
-                                  href="https://apps.apple.com/us/app/carticket/id6751547084"
+                                  href="https://apps.apple.com/app/id6751547084"
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   aria-label="Disponible en el App Store"
