@@ -35,7 +35,7 @@
     "loginCta": "Go to Login",
 
     "item1": {
-      "title": "Your selling app",
+      "title": "Your sales management app",
       "description": "Manage access control and the delivery of your products or services simply and securely, even without an internet connection.",
       "modal": "With our app, control access to your events and the delivery of your products or services, with registration and tracking of entries and exits at all times."
     },
@@ -113,7 +113,7 @@
     },
     "placeholders": {
       "company": "My company",
-      "rif": "J-12345678-9",
+      "rif": "SSN (NNN-NN-NNNN)",
       "email": "you@email.com",
       "phone": "+1 212 456 7890",
       "socials": "@yourhandle or links",
