@@ -46,13 +46,25 @@ export default async function LoginPage({
 
           {/* Acciones */}
           <div className="flex flex-col gap-3">
-            <button className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-1s cursor-pointer">
-              {t("btnClient")}
-            </button>
+            <div className="flex items-center justify-center space-x-4">
+              <a
+                href="https://cliente.trademastertransactions.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-1s cursor-pointer"
+              >
+                {t("btnClient")}
+              </a>
 
-            <button className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-2s cursor-pointer">
-              {t("btnAdmin")}
-            </button>
+              <a
+                href="https://gestion.trademastertransactions.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-indigo-400 to-violet-500 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-violet-400 animate__animated animate__backInUp animate__delay-2s cursor-pointer"
+              >
+                {t("btnAdmin")}
+              </a>
+            </div>
 
             <Link
               href={`/${locale}`}

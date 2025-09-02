@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "trademastertransactions-landing",
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
